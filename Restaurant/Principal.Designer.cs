@@ -71,6 +71,7 @@
             this.btPedido.TabIndex = 1;
             this.btPedido.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btPedido.UseVisualStyleBackColor = false;
+            this.btPedido.Click += new System.EventHandler(this.btPedido_Click);
             // 
             // btMenu
             // 
