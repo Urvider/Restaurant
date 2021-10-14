@@ -41,7 +41,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btIniciar);
             this.panel1.Controls.Add(this.textBox2);
@@ -67,6 +67,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(173, 186);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(148, 20);
             this.textBox2.TabIndex = 3;
             // 
@@ -109,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(599, 435);
             this.Controls.Add(this.panel1);
             this.Name = "Login";
