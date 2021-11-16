@@ -16,5 +16,12 @@ namespace Restaurant
         {
             InitializeComponent();
         }
+
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            Principal prin = new Principal();
+            prin.Show();
+            this.Hide();
+        }
     }
 }

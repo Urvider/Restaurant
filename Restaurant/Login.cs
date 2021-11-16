@@ -10,14 +10,22 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
 
         private void btIniciar_Click(object sender, EventArgs e)
+        {
+            Principal ob = new Principal();
+
+            ob.Show();
+            this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
