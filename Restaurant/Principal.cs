@@ -35,5 +35,10 @@ namespace Restaurant
             ped.Show();
             this.Hide();
         }
+
+        private void btProductos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

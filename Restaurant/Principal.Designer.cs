@@ -31,6 +31,7 @@
             this.btMenu = new System.Windows.Forms.Button();
             this.btPedido = new System.Windows.Forms.Button();
             this.btSalir = new System.Windows.Forms.Button();
+            this.btProductos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btMenu
@@ -63,12 +64,23 @@
             this.btSalir.UseVisualStyleBackColor = true;
             this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
             // 
+            // btProductos
+            // 
+            this.btProductos.Location = new System.Drawing.Point(221, 125);
+            this.btProductos.Name = "btProductos";
+            this.btProductos.Size = new System.Drawing.Size(75, 23);
+            this.btProductos.TabIndex = 4;
+            this.btProductos.Text = "Productos";
+            this.btProductos.UseVisualStyleBackColor = true;
+            this.btProductos.Click += new System.EventHandler(this.btProductos_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Restaurant.Properties.Resources.Comida;
             this.ClientSize = new System.Drawing.Size(550, 450);
+            this.Controls.Add(this.btProductos);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btPedido);
             this.Controls.Add(this.btMenu);
@@ -83,5 +95,6 @@
         private System.Windows.Forms.Button btMenu;
         private System.Windows.Forms.Button btPedido;
         private System.Windows.Forms.Button btSalir;
+        private System.Windows.Forms.Button btProductos;
     }
 }
