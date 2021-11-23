@@ -12,7 +12,7 @@ namespace Restaurant.Model
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //crear la conexion a la base de datos
-            optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=Restaurant;" +
+            optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=Restauran;" +
                 "Integrated Security= True").EnableSensitiveDataLogging(true);
 
         }
