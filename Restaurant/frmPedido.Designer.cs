@@ -1,6 +1,6 @@
 ﻿namespace Restaurant
 {
-    partial class Pedido
+    partial class frmPedido
     {
         /// <summary>
         /// Required designer variable.

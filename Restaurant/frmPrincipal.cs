@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
-    public partial class Principal : Form
+    public partial class frmPrincipal : Form
     {
-        public Principal()
+        public frmPrincipal()
         {
             InitializeComponent();
         }
@@ -24,21 +24,23 @@ namespace Restaurant
 
         private void btMenu_Click(object sender, EventArgs e)
         {
-            Menu men = new Menu();
+            frmMenu men = new frmMenu();
 
             men.Show();
         }
 
         private void btPedido_Click(object sender, EventArgs e)
         {
-            Pedido ped = new Pedido();
+            frmPedido ped = new frmPedido();
             ped.Show();
             this.Hide();
         }
 
         private void btProductos_Click(object sender, EventArgs e)
         {
-
+            frmProductos ob = new frmProductos();
+            ob.Show();
+            this.Hide();
         }
     }
 }

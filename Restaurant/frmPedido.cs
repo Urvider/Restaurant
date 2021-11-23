@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
-    public partial class Login : Form
+    public partial class frmPedido : Form
     {
-        public Login()
+        public frmPedido()
         {
             InitializeComponent();
         }
 
-        private void btIniciar_Click(object sender, EventArgs e)
+        private void btCancelar_Click(object sender, EventArgs e)
         {
-            Principal ob = new Principal();
-
-            ob.Show();
+            frmPrincipal prin = new frmPrincipal();
+            prin.Show();
             this.Hide();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
