@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Restaurant.Model
 {
-    class Producto
+    class Productos
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public int Precio { get; set; }
+        public double Precio { get; set; }
         public string Tipo { get; set; }
-
     }
 }

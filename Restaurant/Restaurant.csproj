@@ -201,13 +201,7 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20211117184727_MigracionInicial.cs" />
-    <Compile Include="Migrations\20211117184727_MigracionInicial.designer.cs">
-      <DependentUpon>20211117184727_MigracionInicial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\AplicationDbContextModelSnapshot.cs" />
     <Compile Include="Model\AplicationDbContext.cs" />
-    <Compile Include="Model\Producto.cs" />
     <Compile Include="frmPedido.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +220,7 @@
     <Compile Include="frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Productos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmLogin.resx">

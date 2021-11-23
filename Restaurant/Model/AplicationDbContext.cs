@@ -16,6 +16,6 @@ namespace Restaurant.Model
                 "Integrated Security= True").EnableSensitiveDataLogging(true);
 
         }
-        public DbSet<Producto> Producto { get; set; }
+        
     }
 }
